@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<button id="loadDataBtn">Загрузить данные</button>
+<div id="dataContainer"></div>
+
+<script>
+    document.getElementById('loadDataBtn').addEventListener('click', function() {
+        fetch('/get-data')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+            })
+            .catch(error => console.error('Ошибка:', error));
+    });
+</script>
+<p>
+
+</p>
+</body>
+</html>
