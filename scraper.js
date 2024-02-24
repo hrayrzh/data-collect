@@ -41,7 +41,6 @@ const urls = ["https://lichess.org/account/profile", "https://lichess.org/accoun
 //                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
 //                     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
 //                     'Accept-Language': 'en-US,en;q=0.5',
-//                     'Cookie':'lila2=44fc6dacda5e1e8fffff6269168c25f3242c2794-sid=jxjNTFtO0WkSVoB2HqMv00&sessionId=e0uYLE8TzLZM94Kj2DHrVI'
 //
 //                     // Дополнительные заголовки по необходимости
 //                 }
@@ -83,7 +82,6 @@ async function scrapeData(urls) {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
                 'Accept-Language': 'en-US,en;q=0.5',
-                'Cookie':'lila2=44fc6dacda5e1e8fffff6269168c25f3242c2794-sid=jxjNTFtO0WkSVoB2HqMv00&sessionId=e0uYLE8TzLZM94Kj2DHrVI'
 
                 // Добавьте другие заголовки по необходимости
             });
